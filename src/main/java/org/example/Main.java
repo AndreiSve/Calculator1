@@ -28,7 +28,7 @@ public class Main {
             } else {throw new Exception("Используются одновременно разные системы исчислений");
             }
             if (num1 >10 || num2 > 10){
-                throw new Exception("Допускаются только цифры");
+                throw new Exception("Максимальное число 10");
             }
             int arabian = calculate(num1,num2,oper);
             if (isCalculate){
